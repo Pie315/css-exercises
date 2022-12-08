@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Methods for Adding CSS</title>
+    <style>
+      .green{
+        background-color:green;
+        color:white;
+      }
+    </style>
   </head>
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <div class='title'><h1>Style me via the external method!</h1></div>
+    <div class='green'><p>I would like to be styled with the internal method, please.</p></div>
+    <button style="background-color:orange; font-size:18px;">Inline Method</button> <!-- DO NOT PUT A DIV INSIDE, JUST SET BUTTON PROPERTIES-->
   </body>
 </html>
